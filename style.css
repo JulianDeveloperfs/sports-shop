@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-color: #012748;
+    height: 80px;
+}
+
+header .name{
+    color: #fff;
+    display: inline-block;
+    position:relative;
+    font-size: 3rem;
+    bottom: 10px;
+    left: 20px;
+    font-family:'Tilt Warp', cursive;
+    cursor: pointer;
+}
+
+header .other{
+    color: #D4AF37;
+    display: inline-block;
+    position:relative;
+    font-size: 3rem;
+    bottom: 10px;
+    left: 25px;
+    font-family:'Tilt Warp', cursive;
+    cursor: pointer;
+
+}
+header .logo {
+    max-height: 60px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.nav-ul {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    top: 20px;
+}
+
+.nav__li {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.nav__li:hover {
+    color:#fff;
+    font-weight: bold;
+    background: #555;
+    border-radius: 10%;
+    transition: background 1s; 
+    cursor: pointer;
+}
+
+.nav__li i {
+    padding: 4px;
+}
+
+main {
+    height: 100vh;
+    position: absolute;
+    width: 80%;
+    right: 0;
+
+}
+
+#title {
+    color: #012748;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 4rem;
+}
+
+main div img {
+    width: 24vh;
+    height: 30vh;
+}
+
+main img {
+    height: auto;
+    width: 100%;
+    object-fit:cover;
+    display: block;
+    margin: auto;
+}
+
+ div .item__cat {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    width: 30%;
+}
+
+main div span {
+    font-size: 2rem;
+    position: relative;
+}
+
+div .item__cat:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+aside {
+    height: 100vh;
+    width: 20%;
+    left: 0;
+    background-image: url(https://us.123rf.com/450wm/toodlingstudio/toodlingstudio1602/toodlingstudio160200036/52527073-fondo-azul-oscuro-fondo-interior-del-dise%C3%B1o-fondo-para-la-textura-del-arte-o-el-dise%C3%B1o-web-y-el.jpg);
+
+}
+
+aside div img {
+    height: 160px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.item__aside1 span {
+    color: #fff;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    bottom:60px ;
+    text-decoration:underline;
+    left: 15px;
+}
+
+.item__aside2 span {
+    color: #fff;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    bottom:60px ;
+    text-decoration:underline;
+    right: 10px;
+}
+
+.item__aside1 {
+    height: 180px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.item__aside2 {
+    height: 180px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.item__aside1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.item__aside2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+footer {
+    background: #012748;
+    position: relative;
+    height: 78px;
+    bottom: 0px;
+    color: #fff;
+}
+
+footer h2 {
+    position: absolute;
+    right: 2%;
+    top: 5px;
+}
+
+footer h3 {
+    position: absolute;
+    top: 40%;
+    font-size: 1.6rem;
+}
+
+
+.nav__social {
+    position: absolute;
+    right: 2%;
+    top: 20px;
+}
+.nav__social-item {
+    display: inline-block;
+    font-size: 3rem;
+    padding: 8px;
+    list-style: none;
+}
+
+.nav__social-item:hover {
+    background-color: #333;
+    transition: 1s;
+    cursor: pointer ;
+}
+
